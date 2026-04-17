@@ -29,7 +29,7 @@ export const projects: Project[] = [
       "React Query",
       "Zod",
     ],
-    liveUrl: undefined,
+    liveUrl: "https://demo-goals.ayhamhuq.com",
     sourceUrl: "https://github.com/AyhamHuq/Goals",
   },
   {

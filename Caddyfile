@@ -14,6 +14,10 @@ staging-goals.ayhamhuq.com {
     reverse_proxy goals-staging-client-1:80
 }
 
+demo-goals.ayhamhuq.com {
+    reverse_proxy goals-demo-client-1:80
+}
+
 bangla.ayhamhuq.com {
     reverse_proxy bangla:8000
 }
