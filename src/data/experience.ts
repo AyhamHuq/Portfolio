@@ -15,8 +15,10 @@ export const experience: ExperienceEntry[] = [
     location: "Chicago, IL",
     period: "July 2025 – Present",
     bullets: [
-      "Consulting for a Fortune 100 financial company to migrate a direct messaging service to AWS using Spring, Kinesis, DynamoDB, Lambda, and SQS — coordinating across 3 teams through production deployment under elevated risk",
-      "Building improvements to an Agentic AI platform for a top sports league, significantly improving precision and recall through reranking and model-based evaluation",
+      "Consulted for a client team from a Fortune 100 financial company to migrate a direct messaging service to AWS and maestro using various Spring APIs, Kinesis, DynamoDB, Lambda, and SQS",
+      "Operated across 3 teams to seamlessly incorporate changes and coordinated production deployment during a period of elevated risk",
+      "Reported to a top sports league to make improvements to an Agentic AI platform fullstack",
+      "Drastically improved precision and recall of the model with reranking and model-based evaluation",
     ],
   },
   {
@@ -26,9 +28,10 @@ export const experience: ExperienceEntry[] = [
     location: "Chicago, IL",
     period: "June 2024 – August 2024",
     bullets: [
-      "Collaborated on an Agile client project for a Fortune 25 company, enhancing user experiences on a healthcare app with personalized predictive analytics",
-      "Trained an AI chatbot using OpenAI embeddings + LangChain; built React Native app with Python Flask backend and Azure SQL database",
-      "Adhered to SOLID principles, leveraged CI/CD with Vercel, and executed Jest unit testing to meet industry quality standards",
+      "Collaborated on an Agile-focused client project for a Fortune 25 company to enhance user experiences on a healthcare app by using personalized predictive healthcare analytics",
+      "Trained an AI model and chat bot using an OpenAI embeddings model with LangChain",
+      "Hosted React Native app on an emulator with a Python Flask and Azure SQL database backend",
+      "Adhered to SOLID principles, leveraged CI/CD using Vercel, and executed Jest unit testing to ensure code quality meets industry standards",
     ],
   },
   {
@@ -38,9 +41,10 @@ export const experience: ExperienceEntry[] = [
     location: "Indianapolis, IN",
     period: "May 2023 – August 2023",
     bullets: [
-      "Innovated a system to redirect thousands of daily SNS config messages to CloudWatch and S3 via Python Lambda functions, eliminating email clutter",
-      "Authored Ansible scripts and CloudFormation templates in YAML to automate production deployment and provision Athena + Glue + S3 resources",
-      "Built a Python script to automate cross-account access and subscriptions for hundreds of AWS accounts while minimizing security risks",
+      "Employed scaled Agile framework with Azure DevOps and Git to complete projects across 7 sprints",
+      "Innovated a system to redirect thousands of daily config SNS messages across to CloudWatch Logs and S3 using Lambda functions written in Python AWS SDK to reduce email clutter for users",
+      "Wrote an Ansible script and a Cloud Formation template in YAML to automate code deployment in production as well as deploy resources such as Athena SQL queries with Glue and S3",
+      "Built a Python script to automate cross account access and subscriptions for hundreds of current AWS accounts while simultaneously minimizing security risks",
     ],
   },
   {
