@@ -1,0 +1,19 @@
+ayhamhuq.com {
+    reverse_proxy portfolio:3000
+}
+
+www.ayhamhuq.com {
+    redir https://ayhamhuq.com{uri} permanent
+}
+
+goals.ayhamhuq.com {
+    reverse_proxy goals-prod-client-1:80
+}
+
+staging-goals.ayhamhuq.com {
+    reverse_proxy goals-staging-client-1:80
+}
+
+bangla.ayhamhuq.com {
+    reverse_proxy bangla:8000
+}

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
+import { SiDiscord } from 'react-icons/si';
 import type { Project } from "@/data/projects";
 
 interface ProjectCardProps {
@@ -78,6 +79,17 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             <FiGithub className="h-4 w-4" />
             Source Code
           </a>
+          {project.inviteUrl && (
+            <a
+              href={project.inviteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 text-sm text-[var(--accent)] hover:underline"
+            >
+              <SiDiscord className="h-4 w-4" />
+              Invite Bot
+            </a>
+          )}
         </div>
       </div>
     </motion.div>

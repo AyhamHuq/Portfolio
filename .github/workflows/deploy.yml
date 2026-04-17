@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    name: Deploy to Hetzner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HETZNER_HOST }}
+          username: ${{ secrets.HETZNER_USER }}
+          key: ${{ secrets.HETZNER_SSH_KEY }}
+          script: |
+            set -euo pipefail
+            cd /opt/portfolio
+            git fetch origin master
+            git reset --hard origin/master
+            docker compose up -d --build --remove-orphans
+            docker exec caddy caddy reload --config /etc/caddy/Caddyfile
+            docker image prune -f
