@@ -7,6 +7,7 @@ export interface Project {
   techStack: string[];
   liveUrl?: string;
   sourceUrl: string;
+  inviteUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -50,6 +51,7 @@ export const projects: Project[] = [
     ],
     liveUrl: undefined,
     sourceUrl: "https://github.com/AyhamHuq/SongQuiz",
+    inviteUrl: "https://discord.com/oauth2/authorize?client_id=1023764406292717599&scope=bot+applications.commands&permissions=3148800",
   },
   {
     slug: "banglaprocessor",
