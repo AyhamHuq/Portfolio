@@ -68,7 +68,7 @@ export const projects: Project[] = [
       "Anki",
       "Zipf Frequency",
     ],
-    liveUrl: undefined,
+    liveUrl: "https://bangla.ayhamhuq.com",
     sourceUrl: "https://github.com/AyhamHuq/BanglaProcessor",
   },
 ];
