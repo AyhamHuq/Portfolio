@@ -70,15 +70,6 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
               Live Demo
             </a>
           )}
-          <a
-            href={project.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)]"
-          >
-            <FiGithub className="h-4 w-4" />
-            Source Code
-          </a>
           {project.inviteUrl && (
             <a
               href={project.inviteUrl}
@@ -90,6 +81,15 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
               Invite Bot
             </a>
           )}
+          <a
+            href={project.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)]"
+          >
+            <FiGithub className="h-4 w-4" />
+            Source Code
+          </a>
         </div>
       </div>
     </motion.div>
