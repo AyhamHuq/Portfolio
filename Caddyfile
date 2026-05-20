@@ -6,11 +6,11 @@ www.ayhamhuq.com {
     redir https://ayhamhuq.com{uri} permanent
 }
 
-goals.ayhamhuq.com {
+goals.ayhamhuq.com, admin-goals.ayhamhuq.com {
     reverse_proxy goals-prod-client-1:80
 }
 
-staging-goals.ayhamhuq.com {
+staging-goals.ayhamhuq.com, admin-staging-goals.ayhamhuq.com {
     reverse_proxy goals-staging-client-1:80
 }
 
